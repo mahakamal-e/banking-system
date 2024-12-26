@@ -24,7 +24,18 @@ This repository contains a simple .NET Core Web API for managing bank accounts.
 1. **Clone the repository:**
    ```bash
    git clone <repository_url>
-
+2. **Navigate to the project directory:**
+   ```Bash
+   cd BankingSystem
+3. **Install dependencies:**
+   ```Bash
+   dotnet restore
+4. **Apply database migrations:**
+   ```Bash
+   dotnet ef database update
+5. **Run the application:**
+   ```Bash
+   dotnet run
 ## API Endpoints
 
 * **Deposit:**
