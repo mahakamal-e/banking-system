@@ -120,10 +120,8 @@ This repository contains a simple .NET Core Web API for managing bank accounts.
 
 **Configure Database:**
 
-Update appsettings.json:
-
-JSON
-
+***Update appsettings.json:***
+```bash
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=your_server_address;Database=db_name;User Id=your_username;Password=your_password;" 
