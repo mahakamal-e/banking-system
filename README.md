@@ -23,7 +23,9 @@ This repository contains a simple .NET Core Web API for managing bank accounts.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>## API Endpoints
+   git clone <repository_url>
+
+## API Endpoints
 
 * **Deposit:**
     * `POST /api/accounts/deposit`
