@@ -118,10 +118,15 @@ This repository contains a simple .NET Core Web API for managing bank accounts.
 
 ## Database Setup
 
-**Prerequisites:**
+**Configure Database:**
 
-* **.NET SDK:** Ensure you have the .NET SDK installed on your machine.
-* **Database:** MySql
+Update appsettings.json:
 
-**Steps:**
+JSON
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=your_server_address;Database=db_name;User Id=your_username;Password=your_password;" 
+  }
+}
 
