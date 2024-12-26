@@ -115,6 +115,11 @@ This repository contains a simple .NET Core Web API for managing bank accounts.
             "balance": 100.00
         }
         ```
+### Testing with Swagger:
+
+After running the application, you can access the Swagger UI at http://127.0.0.1:5128/swagger/ (or the actual port your application is running on).
+Swagger UI provides an interactive interface to explore and test the API endpoints.
+You can easily make requests to each endpoint, view the expected request and response schemas, and see the actual responses from the API.
 
 ## Database Setup
 
