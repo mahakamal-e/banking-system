@@ -16,7 +16,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+SavingsAccount savings = new SavingsAccount(5);
+savings.Deposit(1000);
+savings.ApplyInterest();
+Console.WriteLine($"Savings Balance after interest: {savings.Balance}");
+
+CheckingAccount checking = new CheckingAccount(500);
+checking.Deposit(300);
+checking.Withdraw(700);
+Console.WriteLine($"Checking Balance after withdrawal: {checking.Balance}");
 
 app.UseAuthorization();
 
